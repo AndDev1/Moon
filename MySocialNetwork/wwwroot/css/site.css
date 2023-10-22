@@ -1,0 +1,161 @@
+﻿/* Please see documentation at https://docs.microsoft.com/aspnet/core/client-side/bundling-and-minification
+for details on configuring this project to bundle and minify static web assets. */
+
+a.navbar-brand {
+    height: 30px;
+    font-size: 15px;
+    white-space: normal;
+    text-align: center;
+    word-break: break-all;
+}
+
+/* Provide sufficient contrast against white background */
+a {
+  color: #0366d6;
+}
+
+.btn-primary {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #1b6ec2;
+  border-color: #1861ac;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  font-size: 14px;
+}
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.border-top {
+    border-top: 1px solid #e5e5e5;
+}
+.border-bottom {
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.box-shadow {
+  box-shadow: 0 .25rem .75rem rgba(0, 0, 0, .05);
+}
+
+button.accept-policy {
+  font-size: 1rem;
+  line-height: inherit;
+}
+
+/* Sticky footer styles
+-------------------------------------------------- */
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    /* Margin bottom by footer height */
+    margin-bottom: 60px;
+    background-image: linear-gradient(to bottom, #ababab, #7a7a7a);
+}
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  white-space: nowrap;
+  line-height: 60px; /* Vertically center the text there */
+}
+
+.input {
+    margin-bottom: 450px;
+    width: 470px;
+    height: 31px;
+    border: 1px solid #ccc;
+    padding: 5px;
+    outline: none;
+}
+
+.input:focus {
+    border: 2px solid #0055ff;
+}
+
+/* Стили для параграфа без наведения */
+.hover-paragraph {
+    font-size: 20px;
+    color: #141414;
+    transition: color 0.5s; /* Анимация изменения цвета текста */
+}
+
+    /* Стили, которые будут применяться при наведении */
+    .hover-paragraph:hover {
+        cursor: default; /* Изменение курсора при наведении */
+    }
+
+.chat {
+    max-width: 400px;
+    margin-left: initial;
+}
+
+.message {
+    max-width: 470px;
+    margin-left: initial;
+    padding: 4px;
+    margin: 8px 0;
+    background-color: #65979e;
+    border-radius: 10px;
+}
+
+.newUser {
+    max-width: 470px;
+    background-color: #828282;
+    border-radius: 25px;
+    text-align: center;
+    margin: 8px 0;
+    font-weight: bolder;
+}
+
+.text {
+    margin-top: 3px;
+}
+
+.hover-paragraph {
+    font-size: 15px;
+    padding: 5px;
+    max-width: 150px;
+    margin-left: initial;
+    border-radius: 12px;
+    background-color: #969696;
+}
+
+.msgCount {
+    float: right;
+    margin-left: initial;
+    font-size: 15px;
+    padding: 5px;
+    max-width: 150px;
+    border-radius: 13px;
+    background-color: #969697;
+}
+
+.time {
+    color: black;
+    font-size: 10px;
+}
+
+.username {
+    font-weight: bold;
+    color: black;
+    margin-bottom: 3px;
+}
+
+.my-message {
+    background-color: #007bff; /* Фоновый цвет для ваших сообщений */
+    color: #fff; /* Цвет текста для ваших сообщений */
+}

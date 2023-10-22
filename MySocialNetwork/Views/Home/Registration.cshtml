@@ -1,0 +1,13 @@
+﻿
+@{
+    ViewData["Title"] = "Registration";
+}
+<div align="center">
+    <h3 align="center">ENTER YOUR NAME</h3>
+    <br />
+
+    <form align="center" method="post">
+        <input type="text" name="username" />
+    </form>
+    <a href="@Url.Action("Messanger", new { })">@Model.Username</a>
+</div>

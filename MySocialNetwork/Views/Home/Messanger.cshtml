@@ -1,0 +1,25 @@
+﻿<link rel="stylesheet" type="text/css" href="C:\Users\HP\source\repos\MySocialNetwork\MySocialNetwork\wwwroot\css\site.css">
+<div class="container">
+    <p class="hover-paragraph"><b>Your name: @Model.Username</b></p>
+    <div class="message-container">
+        <div class="msgCount" align="right">
+            <strong><span id="allsentMsg"></span></strong>
+            <br />
+            <i><span id="userSentMsg"></span></i>
+        </div>
+    </div>
+    <div class="row p-1">
+        <div class="col-5">
+            <input type="hidden" class="@Model.Username" id="userInput" />
+        </div>
+    </div>
+    <div class="message-container" id="message-container">
+    </div>
+
+    <input class="input" rows="2" cols="50" id="messageInput" placeholder="Enter message">
+    <input type="button" id="sendButton" value="Send" />
+
+</div>
+<script src="~/lib/jquery/dist/jquery.js"></script>
+<script src="~/js/signalr/dist/browser/signalr.js"></script>
+<script src="~/js/site.js"></script>
